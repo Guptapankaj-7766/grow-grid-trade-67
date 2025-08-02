@@ -10,6 +10,8 @@ import RegisterForm from "./components/Auth/RegisterForm";
 import FarmerDashboard from "./pages/FarmerDashboard";
 import ConsumerDashboard from "./pages/ConsumerDashboard";
 import Marketplace from "./pages/Marketplace";
+import About from "./pages/About";
+import Monitoring from "./pages/Monitoring";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +30,8 @@ const App = () => (
             <Route path="/farmer-dashboard" element={<FarmerDashboard />} />
             <Route path="/consumer-dashboard" element={<ConsumerDashboard />} />
             <Route path="/marketplace" element={<Marketplace />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/monitoring" element={<Monitoring />} />
             <Route path="/dashboard" element={<FarmerDashboard />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
