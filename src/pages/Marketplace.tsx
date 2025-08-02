@@ -5,6 +5,12 @@ import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import Navbar from '@/components/Layout/Navbar';
+import tomatoesImg from '@/assets/tomatoes.jpg';
+import cornImg from '@/assets/corn.jpg';
+import strawberriesImg from '@/assets/strawberries.jpg';
+import saladGreensImg from '@/assets/salad-greens.jpg';
+import eggsImg from '@/assets/eggs.jpg';
+import carrotsImg from '@/assets/carrots.jpg';
 import { 
   Search, 
   Filter, 
@@ -38,7 +44,7 @@ const Marketplace = () => {
       farmer: "Green Valley Farm",
       price: 9.50,
       unit: "kg",
-      image: "/placeholder.svg",
+      image: tomatoesImg,
       rating: 4.8,
       reviews: 24,
       distance: "2.3 km",
@@ -54,7 +60,7 @@ const Marketplace = () => {
       farmer: "Sunshine Acres",
       price: 6.00,
       unit: "kg",
-      image: "/placeholder.svg",
+      image: cornImg,
       rating: 4.6,
       reviews: 18,
       distance: "3.1 km",
@@ -70,7 +76,7 @@ const Marketplace = () => {
       farmer: "Berry Paradise",
       price: 12.00,
       unit: "kg",
-      image: "/placeholder.svg",
+      image: strawberriesImg,
       rating: 4.9,
       reviews: 31,
       distance: "1.8 km",
@@ -86,7 +92,7 @@ const Marketplace = () => {
       farmer: "Leaf & Garden",
       price: 5.50,
       unit: "bunch",
-      image: "/placeholder.svg",
+      image: saladGreensImg,
       rating: 4.7,
       reviews: 15,
       distance: "4.2 km",
@@ -102,7 +108,7 @@ const Marketplace = () => {
       farmer: "Happy Hen Farm",
       price: 8.00,
       unit: "dozen",
-      image: "/placeholder.svg",
+      image: eggsImg,
       rating: 4.9,
       reviews: 42,
       distance: "2.7 km",
@@ -118,7 +124,7 @@ const Marketplace = () => {
       farmer: "Root Vegetable Co.",
       price: 4.50,
       unit: "kg",
-      image: "/placeholder.svg",
+      image: carrotsImg,
       rating: 4.5,
       reviews: 12,
       distance: "5.1 km",
